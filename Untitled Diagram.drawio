@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T10:01:15.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Fmr9kjccrSg-NPL0DzDv" version="17.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T10:06:30.870Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="9oAP-bEfgQuFXLosxz27" version="17.3.0" type="github">
   <diagram name="Page-1" id="822b0af5-4adb-64df-f703-e8dfc1f81529">
-    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="716" dy="372" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,7 +107,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lASmEGCFHO9hF2BuDwO8-33" value="天猫、淘宝服务器" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.internet_hollow;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="800" y="274.2" width="122.26" height="75.8" as="geometry" />
+          <mxGeometry x="830" y="270" width="122.26" height="75.8" as="geometry" />
         </mxCell>
         <mxCell id="lASmEGCFHO9hF2BuDwO8-34" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=default;" edge="1" parent="1" target="lASmEGCFHO9hF2BuDwO8-33">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -118,6 +118,24 @@
         <mxCell id="lASmEGCFHO9hF2BuDwO8-35" value="通过API获取数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="lASmEGCFHO9hF2BuDwO8-34">
           <mxGeometry x="-0.1851" y="3" relative="1" as="geometry">
             <mxPoint x="17" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lASmEGCFHO9hF2BuDwO8-36" value="redis集群" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;fillColor=#e3c800;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="520" y="410" width="87" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lASmEGCFHO9hF2BuDwO8-37" value="mysql集群" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontFamily=Helvetica;fontSize=11;fontColor=#000000;fillColor=#e3c800;strokeColor=#B09500;" vertex="1" parent="1">
+          <mxGeometry x="614" y="410" width="93.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lASmEGCFHO9hF2BuDwO8-39" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=default;width=8.965517241379311;endSize=5.86896551724138;exitX=0.398;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.844;entryY=1.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lASmEGCFHO9hF2BuDwO8-37" target="lASmEGCFHO9hF2BuDwO8-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="543" y="430" as="sourcePoint" />
+            <mxPoint x="643" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lASmEGCFHO9hF2BuDwO8-40" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;strokeColor=default;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lASmEGCFHO9hF2BuDwO8-36">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="487" y="430" as="sourcePoint" />
+            <mxPoint x="587" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
