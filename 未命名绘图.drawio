@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-21T12:13:44.918Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="EnFhVwRTxvk-YH7NxHS9" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-21T13:06:20.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="5-f-oxgd44K4mnflvJ2z" version="18.0.4" type="github">
   <diagram id="pf3MefIdUjdGJpEtNJun" name="第 1 页">
-    <mxGraphModel dx="593" dy="308" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="730" dy="327" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
         <mxCell id="VGpgFT32VqMawX2vZReu-16" value="生产者" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="145" y="160" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VGpgFT32VqMawX2vZReu-17" value="短链子系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="VGpgFT32VqMawX2vZReu-17" value="邮件消费者" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="520" y="232.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VGpgFT32VqMawX2vZReu-18" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VGpgFT32VqMawX2vZReu-17">
@@ -54,6 +54,15 @@
         </mxCell>
         <mxCell id="VGpgFT32VqMawX2vZReu-19" value="消费者" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="535" y="170" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpgFT32VqMawX2vZReu-20" value="iRedMail邮件服务器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="520" y="295" width="109" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpgFT32VqMawX2vZReu-21" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="262.5" as="sourcePoint" />
+            <mxPoint x="565" y="291" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
