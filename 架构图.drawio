@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T06:43:39.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="6Hw9ecL0nSeKNjI9Fym3" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T06:46:19.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="HsBaNT0y7WRjyO1lI_FK" version="18.1.1" type="github">
   <diagram id="CSwuzUKMIccfADh2_HcM" name="第 1 页">
     <mxGraphModel dx="1038" dy="539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Br_0iNkM0B_P52d63Boj-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry y="10" width="400" height="460" as="geometry" />
+          <mxGeometry x="5" y="10" width="395" height="460" as="geometry" />
         </mxCell>
         <mxCell id="Br_0iNkM0B_P52d63Boj-2" value="认证、授权" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontFamily=Helvetica;fontSize=11;fontColor=#ffffff;fillColor=#e51400;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="184" y="260" width="110" height="20" as="geometry" />
@@ -330,6 +330,15 @@
         </mxCell>
         <mxCell id="Br_0iNkM0B_P52d63Boj-116" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;iRedMail邮件服务器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
           <mxGeometry x="521" y="559" width="134" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="Br_0iNkM0B_P52d63Boj-117" value="投递邮件任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;rotation=70;" vertex="1" parent="1">
+          <mxGeometry x="306" y="389" width="94" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="Br_0iNkM0B_P52d63Boj-118" value="投递邮件任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;rotation=-70;" vertex="1" parent="1">
+          <mxGeometry x="381" y="375.2" width="94" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="Br_0iNkM0B_P52d63Boj-119" value="远程调用短链子系统API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="306" y="271" width="159" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
