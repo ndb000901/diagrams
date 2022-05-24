@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-24T06:46:19.692Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="HsBaNT0y7WRjyO1lI_FK" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-24T06:48:26.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="ifFiiA42Kxw0uahm4MnM" version="18.1.1" type="github">
   <diagram id="CSwuzUKMIccfADh2_HcM" name="第 1 页">
     <mxGraphModel dx="1038" dy="539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -313,8 +313,8 @@
         <mxCell id="Br_0iNkM0B_P52d63Boj-111" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.cluster_server" vertex="1" parent="1">
           <mxGeometry x="457" y="770" width="40" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Br_0iNkM0B_P52d63Boj-112" value="&lt;b&gt;第三方邮件服务&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="391" y="740" width="100" height="20" as="geometry" />
+        <mxCell id="Br_0iNkM0B_P52d63Boj-112" value="&lt;b&gt;第三方邮件服务器&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="388" y="741" width="106" height="18" as="geometry" />
         </mxCell>
         <mxCell id="Br_0iNkM0B_P52d63Boj-113" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.cluster_server" vertex="1" parent="1">
           <mxGeometry x="515" y="770" width="40" height="50" as="geometry" />
@@ -339,6 +339,15 @@
         </mxCell>
         <mxCell id="Br_0iNkM0B_P52d63Boj-119" value="远程调用短链子系统API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="306" y="271" width="159" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="Br_0iNkM0B_P52d63Boj-120" value="与第三方邮件服务器通信" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="408" y="701" width="164" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="Br_0iNkM0B_P52d63Boj-121" value="投递邮件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="478" y="611" width="66" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="Br_0iNkM0B_P52d63Boj-122" value="监听/解析邮件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="579" width="98" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
