@@ -1,1 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T09:45:24.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="19.0.0" etag="y-2obXTV9wV8WyCTRDWC" type="github"><diagram id="1y82u6gaSWqw6R58mSbO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-08T09:54:16.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="-Qrm9yO4pdVdNiNJpEKi" version="19.0.0" type="github">
+  <diagram id="1y82u6gaSWqw6R58mSbO" name="第 1 页">
+    <mxGraphModel dx="1038" dy="539" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0rak1xLl9r6X8j5HJ1MS-1" target="0rak1xLl9r6X8j5HJ1MS-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="323" y="33" width="64" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-3" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="463" y="171.5" width="64" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0rak1xLl9r6X8j5HJ1MS-4" target="0rak1xLl9r6X8j5HJ1MS-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-4" value="用户请求注销" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="93" width="100" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0rak1xLl9r6X8j5HJ1MS-5" target="0rak1xLl9r6X8j5HJ1MS-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0rak1xLl9r6X8j5HJ1MS-5" target="0rak1xLl9r6X8j5HJ1MS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-5" value="jwt是否合法" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305" y="162" width="100" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-7" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="416" y="171.5" width="22" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0rak1xLl9r6X8j5HJ1MS-8" target="0rak1xLl9r6X8j5HJ1MS-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-8" value="解析jwt信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="249" width="100" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0rak1xLl9r6X8j5HJ1MS-9" target="0rak1xLl9r6X8j5HJ1MS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-9" value="从Redis删除当前会话信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="312" width="100" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0rak1xLl9r6X8j5HJ1MS-10" target="0rak1xLl9r6X8j5HJ1MS-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-10" value="将结果返回前端" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="305" y="375" width="100" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-16" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="463" y="372.5" width="64" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="0rak1xLl9r6X8j5HJ1MS-18" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="218" width="22" height="18" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
